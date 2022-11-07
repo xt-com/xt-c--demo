@@ -1,0 +1,11 @@
+D:\code\ApiDemo\ApiDemo\obj\Debug\ApiDemo.Form1.resources
+D:\code\ApiDemo\ApiDemo\obj\Debug\ApiDemo.Properties.Resources.resources
+D:\code\ApiDemo\ApiDemo\obj\Debug\ApiDemo.csproj.GenerateResource.cache
+D:\code\ApiDemo\ApiDemo\obj\Debug\ApiDemo.csproj.CoreCompileInputs.cache
+D:\code\ApiDemo\ApiDemo\bin\Debug\ApiDemo.exe.config
+D:\code\ApiDemo\ApiDemo\bin\Debug\ApiDemo.exe
+D:\code\ApiDemo\ApiDemo\bin\Debug\ApiDemo.pdb
+D:\code\ApiDemo\ApiDemo\bin\Debug\websocket-sharp-customheaders.dll
+D:\code\ApiDemo\ApiDemo\obj\Debug\ApiDemo.csproj.CopyComplete
+D:\code\ApiDemo\ApiDemo\obj\Debug\ApiDemo.exe
+D:\code\ApiDemo\ApiDemo\obj\Debug\ApiDemo.pdb
