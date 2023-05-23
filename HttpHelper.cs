@@ -69,12 +69,12 @@ namespace ApiDemo
             try
             {
 
-                request.Headers.Set("xt-validate-algorithms", Encry);
-                request.Headers.Set("xt-validate-appkey", AppKey);
-                request.Headers.Set("xt-validate-recvwindow", Timeout);
-                request.Headers.Set("xt-validate-timestamp", timeStamp);
+                request.Headers.Set("validate-algorithms", Encry);
+                request.Headers.Set("validate-appkey", AppKey);
+                request.Headers.Set("validate-recvwindow", Timeout);
+                request.Headers.Set("validate-timestamp", timeStamp);
 
-                request.Headers.Set("xt-validate-signature", sign);
+                request.Headers.Set("validate-signature", sign);
 
                 //Set type to POST  
                 request.Method = "POST";
@@ -169,11 +169,11 @@ namespace ApiDemo
             try
             {
 
-                request.Headers.Set("xt-validate-algorithms", Encry);
-                request.Headers.Set("xt-validate-appkey", AppKey);
-                request.Headers.Set("xt-validate-recvwindow", Timeout);
-                request.Headers.Set("xt-validate-timestamp", timeStamp);
-                request.Headers.Set("xt-validate-signature", sign);
+                request.Headers.Set("validate-algorithms", Encry);
+                request.Headers.Set("validate-appkey", AppKey);
+                request.Headers.Set("validate-recvwindow", Timeout);
+                request.Headers.Set("validate-timestamp", timeStamp);
+                request.Headers.Set("validate-signature", sign);
               
                 //Get response  
                 using (HttpWebResponse response = request.GetResponse() as HttpWebResponse)
@@ -249,11 +249,11 @@ namespace ApiDemo
             try
             {
 
-                request.Headers.Set("xt-validate-algorithms", Encry);
-                request.Headers.Set("xt-validate-appkey", AppKey);
-                request.Headers.Set("xt-validate-recvwindow", Timeout);
-                request.Headers.Set("xt-validate-timestamp", timeStamp);
-                request.Headers.Set("xt-validate-signature", sign);
+                request.Headers.Set("validate-algorithms", Encry);
+                request.Headers.Set("validate-appkey", AppKey);
+                request.Headers.Set("validate-recvwindow", Timeout);
+                request.Headers.Set("validate-timestamp", timeStamp);
+                request.Headers.Set("validate-signature", sign);
 
                 if (!string.IsNullOrEmpty(json))
                 {
@@ -332,7 +332,7 @@ namespace ApiDemo
         {
             Encoding ascii = Encoding.ASCII;
 
-            string s1 = "xt-validate-algorithms="+Encry+"&xt-validate-appkey="+AppKey+"&xt-validate-recvwindow="+Timeout+"&xt-validate-timestamp="+time;
+            string s1 = "validate-algorithms="+Encry+"&validate-appkey="+AppKey+"&validate-recvwindow="+Timeout+"&validate-timestamp="+time;
           
             string s2 = string.Format("#{0}#{1}",method,url);
 
